@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+*, *:before, *:after{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+header,section,footer,article,aside,nav,hgroup,div{
+	display:block; 
+}
+
+img{
+	border:none;
+}
+
+input, textarea,button,select{
+	display:block;
+	outline:none;
+}
+
+body{	
+    display: -webkit-flex;
+	-webkit-align-items:center;
+	-webkit-align-content:center;	
+}
+
+.main-wrapper{
+    display: -webkit-flex; 
+	-webkit-align-content:center;
+	-webkit-flex-direction:column; 
+	-webkit-flex:1;	
+    width: 100%;        
+}
+
+.wrapper {    
+    display: -webkit-flex;
+    -webkit-flex-direction:column; 
+	-webkit-align-content:center;
+	-webkit-flex:1;    
+    padding: 0px 10px;  
+	margin:0px 20px;	    
+}
+
+.horizontal{
+    display:-webkit-flex;       
+	-webkit-align-content:center;	
+    width: 100%;    
+}
+
+@media screen and (max-width:768px){
+	.main-wrapper,.wrapper,.vertical,.horizontal{
+		-webkit-flex-direction:column;
+	}
+}
+
+@media screen and (min-width:768px){
+	.vertical{
+		-webkit-flex-direction:column;
+	}
+	.horizontal,.wrapper-horizontal{
+		-webkit-flex-direction:row;
+	}
+	
+	.p-col-3 > p{
+		width:33.33333%;
+		float:left;
+	}
+	.p-col-2 > p{
+		width:50%;
+		float:left;
+	}
+}
+
+.vertical{
+    display:-webkit-flex;        
+	-webkit-align-content:center;	
+    width: 100%;   
+}
+
+.box{ 
+   -webkit-flex:1;
+  // border: thin solid #ddd;   
+   min-height:200px;
+}
+
+.content{
+padding:0px 10px 20px 10px;
+}
+
+.rounded-5{
+border-radius:5px;
+}
+.rounded-10{
+border-radius:10px;
+}
+
+.box-1{
+	-webkit-flex:1;
+}
+
+.box-2{
+	-webkit-flex:2;
+}
+
+.box-3{
+	-webkit-flex:3;
+}
+
+.box-4{
+	-webkit-flex:4;
+}
+
+.box-5{
+	-webkit-flex:5;
+	display:inline-block;
+}
+
+.box-6{
+	-webkit-flex:6;
+}
+
+.box-7{
+	-webkit-flex:7;
+}
+
+.box-8{
+	-webkit-flex:8;
+}
+
+.box-9{
+	-webkit-flex:9;
+}
+
+.box-10{
+	-webkit-flex:10;
+}
+
+/*Leave left and right space with margin*/
+.space-0{
+    margin: 0px;
+}
+
+.space-10 {
+    margin:0px 10px;
+}
+.space-20{
+    margin:0px 20px;
+}
+
+.space-30{
+    margin:0px 30px;
+}  
+
+.space-40{
+    margin:0px 40px;
+}
+
+.space-50{
+    margin:0px 50px;
+}
+  
+.space-60{
+   margin: 0px 60px; 
+}
+
+.space-70{
+    margin: 0px 70px;
+}
+
+.space-80{
+    margin: 0px 80px;
+}
+
+.space-90{
+    margin: 0px 90px;
+}
+
+.space-100{
+    margin: 0px 100px;
+}
+
+.space-200{
+    margin: 0px 200px;
+}
+
+/*Leave left and right space with margin*/
+
+.p-col-3>p:nth-child(n){
+padding-right:20px;
+}
+
+
+
+
+

@@ -1,0 +1,31 @@
+.list li{
+	list-style-type:square;	
+	list-style-position:inside;	
+}
+
+.table{
+border-collapse:collapse;
+width:100%;
+}
+
+.table tr td,table tr th{
+padding:10px 5px;
+border-bottom:1px solid #efefef;
+color:#3e3e3e;
+}
+
+.table tr th{
+color:#000;
+text-align:left;
+vertical-align:baseline;
+background-image: linear-gradient(to bottom,#dcdcdc 0,#cccccc 100%);
+}
+
+
+
+
+
+.table tr:hover td{ 
+background: #efefef;    
+	color:#000;
+} 

@@ -1,0 +1,156 @@
+.form  input, .form select{
+	position:relative;
+	border:1px solid #ddd;
+	width:100%;
+	font-size:17px;
+	height:35px;
+	padding:5px 10px;
+	transition:border 70ms linear;
+}
+
+.rounded input, .rounded select{
+	border-radius:5px;
+	border:1.5px solid #ddd;
+}
+
+.form input:hover,.form select:hover{
+	border:1px solid #aaa;
+}
+
+.form input:focus,.form select:focus{
+	border:1px solid #d02cda;	
+}
+
+.form input[type="date"],.form input[type="number"]{
+	width:260px;
+}
+
+
+input.small ,select.small{
+	width:260px;
+}
+
+
+label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;	
+}
+
+input[type=radio],
+input[type=checkbox] {
+	display: none;
+}
+label:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	position: absolute;
+	left: 0px;
+	//bottom: 2px;
+	//background-color: #aaa;
+	box-shadow: inset 0px 0px 2px 0px #555;
+}
+
+.radio label:before {	
+	border-radius: 50%;
+}
+.checkbox label {
+	margin-bottom: 10px;
+}
+
+.checkbox label:before {
+	border-radius: 4px;
+}
+
+input[type=radio]:checked + label:before {	
+    content: "\2022";
+    color: #666;
+    font-size: 30px;
+    text-align: center;
+    line-height: 20px;
+}
+
+input:checked + label:before{
+	box-shadow: inset 0px 0px 6px 0px #666;
+}
+
+input[type=checkbox]:checked + label:before {
+	content: "\2713";	
+	//content:"\02605";
+	font-size: 18px;
+	font-weight:bold;
+	color: #444;
+	text-align: center;
+    line-height: 15px;
+}
+
+
+input:required,textarea:required {
+	background: #fff url(images/required.gif) no-repeat 98% center;
+	transition:background 100ms linear;
+}
+
+input.valid,textarea.valid {
+	background: #fff url(images/valid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+	color:#28921f;
+	transition:background 100ms linear;
+}
+
+input.invalid,textarea.invalid {
+	background: #fff url(images/invalid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535;
+	color:#b03535;
+}
+
+.input-side-message{
+	color: #fff;
+	margin-left:8px;
+	padding: 4px 5px;
+	z-index: 999; 
+}
+
+
+
+
+
+/*
+    
+    search section
+    
+    */
+
+.search_box{
+  width:450px;
+}
+
+.search{
+   background: #fff url("images/search-icon.png") no-repeat 98% center;
+   background-size: 20px 20px;
+}
+
+.search_box input:focus + #datalist,#datalist:hover,#datalist:active,#datalist:focus{
+    min-height: 320px;
+    display: block;    
+    //box-shadow: 0px 0px 4px 0px #ddd;
+	box-shadow:0 3px 6px #ddd;
+}
+
+.livebox{	
+    width: 450px;
+	padding:5px 10px;
+	transition: height 100ms ease-in;
+    border: thin solid #ddd;
+    background: #fff;
+    display:none;
+    overflow: hidden;
+    position: absolute;	
+}
+
+

@@ -1,0 +1,12 @@
+body{
+background:#fff;
+color:#000;
+}
+
+h1,h2,h3,h4,h5,h6{
+color:#0E0E0E
+}
+
+hgroup > h2,hgroup > h3,hgroup > h4,hgroup > h5,hgroup > h6{
+color:#666;
+}
