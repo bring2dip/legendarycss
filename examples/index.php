@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-		<link rel="stylesheet" href="layout.css" />
-		<link rel="stylesheet" href="font.css" />
-		<link rel="stylesheet" href="color.css" />
-		<link rel="stylesheet" href="button.css" />
-		<link rel="stylesheet" href="form.css" />
-		<link rel="stylesheet" href="style.css" />
-		<link rel="stylesheet" href="list.css" />
+		<link rel="stylesheet" href="../css/layout.css" />
+		<link rel="stylesheet" href="../css/font.css" />
+		<link rel="stylesheet" href="../css/color.css" />
+		<link rel="stylesheet" href="../css/button.css" />
+		<link rel="stylesheet" href="../css/form.css" />
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/list.css" />
     </head>
     <body>
 	
